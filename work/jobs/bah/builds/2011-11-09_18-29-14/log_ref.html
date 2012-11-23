@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="http://localhost:8080/css/style.css"></link>
+		<link type="text/css" rel="stylesheet" href="http://localhost:8080/css/color.css"></link>
+	</head>
+	<body>
+<base target="content">
+<script language="JavaScript" type="text/javascript">
+	function toggleList(list){
+		element = document.getElementById(list).style;
+		element.display == 'none' ? element.display='block' : element.display='none';
+	}
+</script>
+<img src="http://localhost:8080///plugin/log-parser/images/red.gif" style="margin: 2px;" width="24" alt="" height="24"></img>
+<a href="javascript:toggleList('Error')" target="_self"><STRONG>Error (0)</STRONG></a><br/>
+<ul id="Error" type="disc" style="display:none">
+</ul>
+<img src="http://localhost:8080///plugin/log-parser/images/red.gif" style="margin: 2px;" width="24" alt="" height="24"></img>
+<a href="javascript:toggleList('Generation Error')" target="_self"><STRONG>Generation Error (0)</STRONG></a><br/>
+<ul id="Generation Error" type="disc" style="display:none">
+</ul>
+<img src="http://localhost:8080///plugin/log-parser/images/red.gif" style="margin: 2px;" width="24" alt="" height="24"></img>
+<a href="javascript:toggleList('Build Error')" target="_self"><STRONG>Build Error (0)</STRONG></a><br/>
+<ul id="Build Error" type="disc" style="display:none">
+</ul>
+<img src="http://localhost:8080///plugin/log-parser/images/yellow.gif" style="margin: 2px;" width="24" alt="" height="24"></img>
+<a href="javascript:toggleList('Warning')" target="_self"><STRONG>Warning (0)</STRONG></a><br/>
+<ul id="Warning" type="disc" style="display:none">
+</ul>
+<img src="http://localhost:8080///plugin/log-parser/images/blue.gif" style="margin: 2px;" width="24" alt="" height="24"></img>
+<a href="javascript:toggleList('Info')" target="_self"><STRONG>Info (1)</STRONG></a><br/>
+<ul id="Info" type="disc" style="display:none">
+<li>1 <a target="content" href="log_content.html#INFO1"><font color="blue">Started by user anonymous</font></a></li><br/>
+</ul>
+<img src="http://localhost:8080///plugin/log-parser/images/green.gif" style="margin: 2px;" width="24" alt="" height="24"></img>
+<a href="javascript:toggleList('OK')" target="_self"><STRONG>OK (0)</STRONG></a><br/>
+<ul id="OK" type="disc" style="display:none">
+</ul>
+	</body>
+</html>

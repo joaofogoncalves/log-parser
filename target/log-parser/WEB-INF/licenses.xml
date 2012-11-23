@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Log Parser Plugin' groupId='org.jenkins-ci.plugins' artifactId='log-parser' version='1.0.9-SNAPSHOT' url='http://wiki.hudson-ci.org/display/HUDSON/Log+Parser+Plugin'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>

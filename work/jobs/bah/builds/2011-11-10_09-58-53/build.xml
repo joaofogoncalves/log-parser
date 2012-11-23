@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.plugins.logparser.LogParserAction>
+      <build class="build" reference="../../.."/>
+      <result>
+        <totalErrors>1</totalErrors>
+        <totalErrors__Gen>452</totalErrors__Gen>
+        <totalErrors__Build>0</totalErrors__Build>
+        <totaltotalErrors>453</totaltotalErrors>
+        <totalWarnings>43</totalWarnings>
+        <totalInfos>17</totalInfos>
+        <totalOks>18</totalOks>
+        <htmlLogFile>D:\plugins\log-parser\.\work\jobs\bah\builds\2011-11-10_09-58-53/log_content.html</htmlLogFile>
+        <errorLinksFile>D:\plugins\log-parser\.\work\jobs\bah\builds\2011-11-10_09-58-53/logerrorLinks.html</errorLinksFile>
+        <error__genLinksFile>D:\plugins\log-parser\.\work\jobs\bah\builds\2011-11-10_09-58-53/logerror_genLinks.html</error__genLinksFile>
+        <error__buildLinksFile>D:\plugins\log-parser\.\work\jobs\bah\builds\2011-11-10_09-58-53/logerror_buildLinks.html</error__buildLinksFile>
+        <warningLinksFile>D:\plugins\log-parser\.\work\jobs\bah\builds\2011-11-10_09-58-53/logwarningLinks.html</warningLinksFile>
+        <infoLinksFile>D:\plugins\log-parser\.\work\jobs\bah\builds\2011-11-10_09-58-53/loginfoLinks.html</infoLinksFile>
+        <okLinksFile>D:\plugins\log-parser\.\work\jobs\bah\builds\2011-11-10_09-58-53/logokLinks.html</okLinksFile>
+        <parsedLogURL>job/bah/10/parsed_console/log.html</parsedLogURL>
+        <htmlLogPath>D:\plugins\log-parser\.\work\jobs\bah\builds\2011-11-10_09-58-53</htmlLogPath>
+      </result>
+    </hudson.plugins.logparser.LogParserAction>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+  </actions>
+  <number>10</number>
+  <result>FAILURE</result>
+  <duration>466</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\plugins\log-parser\work\workspace\bah</workspace>
+  <hudsonVersion>1.437</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits/>
+</build>

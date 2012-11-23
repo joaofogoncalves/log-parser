@@ -1,0 +1,9 @@
+Started by user anonymous
+[bah] $ cmd /c call C:\Users\JGONCA~1.QUI\AppData\Local\Temp\hudson9161484822280579423.bat
+
+D:\plugins\log-parser\work\workspace\bah>type log 
+The system cannot find the file specified.
+
+D:\plugins\log-parser\work\workspace\bah>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

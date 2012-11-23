@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Built-By: jgoncalves
+Created-By: Apache Maven
+Build-Jdk: 1.7.0_01
+Extension-Name: log-parser
+Implementation-Title: log-parser
+Implementation-Version: 1.0.9-SNAPSHOT
+Plugin-Class: hudson.plugins.logparser.PluginImpl
+Group-Id: org.jenkins-ci.plugins
+Short-Name: log-parser
+Long-Name: Log Parser Plugin
+Url: http://wiki.hudson-ci.org/display/HUDSON/Log+Parser+Plugin
+Plugin-Version: 1.0.9-SNAPSHOT (private-01/19/2012 17:19-jgoncalves)
+Hudson-Version: 1.437
+Jenkins-Version: 1.437
+Plugin-Developers: Rinat Ailon:rgoren:rgoren@cisco.com,John Borghi:jbo
+ rghi:
+
